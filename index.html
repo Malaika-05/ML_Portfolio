@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — AI / ML Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-mark">MALAIKA TAQVEEM<span>.</span></a>
+    <div class="nav-links">
+      <a href="#stack">Stack</a>
+      <a href="#builds">Builds</a>
+      <a href="#profile">Profile</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#contact" class="nav-cta">Let's talk</a>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<header id="top" class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">AI / ML Engineer — Mardan, Pakistan</p>
+    <h1 class="hero-title">
+      I build AI systems that read <em>scans</em>,<br>
+      understand <em>fields</em>, and speak <em>language</em> —<br>
+      end to end.
+    </h1>
+    <p class="hero-sub">
+      Final-year AI undergraduate at AWKUM, building systems that turn
+       raw documents, scans, and images into answers — retrieval pipelines, 
+       fine-tuned domain models, and deployments that hold up outside a notebook.
+    </p>
+    <div class="hero-actions">
+      <a href="#builds" class="btn btn-primary">View builds</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </div>
+
+  <div class="pipeline" aria-hidden="true">
+    <div class="pipe-stage"><span class="pipe-dot"></span><span class="pipe-label">input</span></div>
+    <div class="pipe-line"></div>
+    <div class="pipe-stage"><span class="pipe-dot"></span><span class="pipe-label">embed</span></div>
+    <div class="pipe-line"></div>
+    <div class="pipe-stage"><span class="pipe-dot"></span><span class="pipe-label">retrieve</span></div>
+    <div class="pipe-line"></div>
+    <div class="pipe-stage"><span class="pipe-dot"></span><span class="pipe-label">generate</span></div>
+  </div>
+</header>
+
+<!-- ===================== PROFILE / STATS ===================== -->
+<section id="profile" class="profile">
+  <div class="profile-grid">
+    <div class="stat">
+      <span class="stat-num">3.77<small>/4.00</small></span>
+      <span class="stat-label">CGPA — BS Artificial Intelligence</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">PM</span>
+      <span class="stat-label">Prime Minister's Laptop Award</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">10+</span>
+      <span class="stat-label">Shipped AI projects &amp; tools</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">2027</span>
+      <span class="stat-label">Expected graduation, AWKUM</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STACK ===================== -->
+<section id="stack" class="stack">
+  <div class="section-head">
+    <p class="section-eyebrow">Stack</p>
+    <h2 class="section-title">What I build with</h2>
+  </div>
+
+  <div class="stack-grid">
+    <div class="stack-col">
+      <h3>Modeling &amp; ML</h3>
+      <ul class="tags">
+        <li>YOLOv8</li><li>BioBERT</li><li>Transformers</li>
+        <li>LoRA Fine-tuning</li><li>scikit-learn</li><li>SMOTE</li>
+        <li>GridSearchCV</li><li>ANN</li>
+      </ul>
+    </div>
+    <div class="stack-col">
+      <h3>GenAI &amp; Retrieval</h3>
+      <ul class="tags">
+        <li>RAG Pipelines</li><li>FAISS</li><li>fastembed</li>
+        <li>LangChain</li><li>Groq API — LLaMA 3.3 70B</li><li>Gemini API</li>
+      </ul>
+    </div>
+    <div class="stack-col">
+      <h3>Backend &amp; Deployment</h3>
+      <ul class="tags">
+        <li>Flask</li><li>SQLite</li><li>Docker</li>
+        <li>HuggingFace Spaces</li><li>Render</li><li>Railway</li>
+      </ul>
+    </div>
+    <div class="stack-col">
+      <h3>Data &amp; Tooling</h3>
+      <ul class="tags">
+        <li>Python</li><li>Pandas</li><li>Matplotlib</li>
+        <li>Google Colab (T4 GPU)</li><li>Git / GitHub</li><li>VS Code</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="pipeline pipeline-divider" aria-hidden="true">
+  <div class="pipe-line full"></div>
+</div>
+
+<!-- ===================== FEATURED BUILDS ===================== -->
+<section id="builds" class="builds">
+  <div class="section-head">
+    <p class="section-eyebrow">Builds</p>
+    <h2 class="section-title">Featured work</h2>
+  </div>
+
+  <div class="project-list">
+
+    <article class="project">
+      <div class="project-meta">
+        <span class="project-tag">Medical AI · RAG</span>
+        <span class="project-status">Flagship</span>
+      </div>
+      <h3>MedScan AI</h3>
+      <p>
+        A medical report analysis system combining object detection with domain-tuned
+        language understanding. YOLOv8 localizes findings on scans, BioBERT reads the
+        clinical text, and a FAISS-backed RAG layer grounds a Groq-hosted LLaMA 3.3 70B
+        in retrieved medical context before it answers.
+      </p>
+      <div class="project-metrics">
+        <div><span class="metric-num">0.937</span><span class="metric-label">mAP50 (YOLOv8)</span></div>
+        <div><span class="metric-num">94.8%</span><span class="metric-label">BioBERT accuracy</span></div>
+      </div>
+      <ul class="project-stack">
+        <li>YOLOv8</li><li>BioBERT</li><li>FAISS</li><li>Groq LLaMA 3.3 70B</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <div class="project-meta">
+        <span class="project-tag">Full-stack RAG</span>
+        <span class="project-status">Recently shipped</span>
+      </div>
+      <h3>PDF Chat Agent</h3>
+      <p>
+        A multi-PDF conversational RAG application. Documents are chunked and embedded
+        with fastembed, indexed in FAISS, and queried through Groq's LLaMA models, with
+        SQLite tracking chat history. Containerized with Docker and deployed to both
+        GitHub and HuggingFace Spaces.
+      </p>
+      <ul class="project-stack">
+        <li>Flask</li><li>FAISS</li><li>fastembed</li><li>Groq API</li><li>SQLite</li><li>Docker</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <div class="project-meta">
+        <span class="project-tag">Study Assistant</span>
+        <span class="project-status">Live</span>
+      </div>
+      <h3>Nova</h3>
+      <p>
+        An AI study assistant with five modes — Chat, Quiz, Summarize, Solve, and
+        Flashcards — plus voice input and persistent SQLite-backed history. Built on
+        Flask and deployed on Render and Railway.
+      </p>
+      <ul class="project-stack">
+        <li>Flask</li><li>SQLite</li><li>Groq API</li><li>Render</li><li>Railway</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <div class="project-meta">
+        <span class="project-tag">AgriTech · Competition</span>
+        <span class="project-status">AI Seekho 2026</span>
+      </div>
+      <h3>KisanAI</h3>
+      <p>
+        A crop-disease detection tool built for Pakistani farmers during the AI Seekho
+        2026 vibe-coding competition, using the Gemini API to identify disease from crop
+        imagery and return plain-language guidance.
+      </p>
+      <ul class="project-stack">
+        <li>Gemini API</li><li>Vibe-coded build</li>
+      </ul>
+    </article>
+
+  </div>
+
+  <div class="more-builds">
+    <h3>Also built</h3>
+    <div class="more-grid">
+      <div class="more-item">
+        <h4>Roman Urdu → English Extension</h4>
+        <p>Chrome extension translating Roman Urdu using the Groq API.</p>
+      </div>
+      <div class="more-item">
+        <h4>Language Translation Tool</h4>
+        <p>deep-translator + gTTS + Gradio interface for text and speech translation.</p>
+      </div>
+      <div class="more-item">
+        <h4>Email Spam Classifier</h4>
+        <p>SVM + TF-IDF + SMOTE, 99% accuracy on spam detection.</p>
+      </div>
+      <div class="more-item">
+        <h4>Customer Churn Pipeline</h4>
+        <p>scikit-learn pipeline with SMOTE and GridSearchCV tuning.</p>
+      </div>
+      <div class="more-item">
+        <h4>Object Detection</h4>
+        <p>Custom-trained detection model for classifying objects in real-world images.</p>
+      </div>
+      <div class="more-item">
+        <h4>BERT News Classifier</h4>
+        <p>Fine-tuned BERT on AG News for multi-class news categorization.</p>
+      </div>
+      <div class="more-item">
+        <h4>Smart Email Summarizer</h4>
+        <p>Chrome extension summarizing inbox threads on demand.</p>
+      </div>
+      <div class="more-item">
+        <h4>Support Ticket Tagger</h4>
+        <p>Zero/few-shot ticket classification using Groq.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EDUCATION / EXPERIENCE ===================== -->
+<section id="experience" class="experience">
+  <div class="section-head">
+    <p class="section-eyebrow">Profile</p>
+    <h2 class="section-title">Education &amp; involvement</h2>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-mark"></div>
+      <div class="timeline-content">
+        <span class="timeline-date">Expected Sep 2027</span>
+        <h3>BS Artificial Intelligence</h3>
+        <p>Abdul Wali Khan University Mardan (AWKUM) — CGPA 3.7/4.0, recipient of the
+        Prime Minister's Laptop Award for academic excellence.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-mark"></div>
+      <div class="timeline-content">
+        <span class="timeline-date">Ongoing</span>
+        <h3>VTools Manager — IEEE AWKUM Student Branch</h3>
+        <p>Managing IEEE's official records and activity-reporting platform for the
+        student branch.</p>
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact" class="contact">
+  <div class="contact-inner">
+    <p class="section-eyebrow">Contact</p>
+    <h2 class="contact-title">Building something worth reading about?</h2>
+    <p class="contact-sub">Open to internships, freelance ML work, and research collaboration.</p>
+    <div class="contact-links">
+      <a href="mailto:malaikataqveem@gmail.com">malaikataqveem@gmail.com</a>
+      <a href="https://github.com/Malaika-05" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/malaika-taqveem-93354a285/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Designed &amp; built with care · Mardan, Pakistan</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
