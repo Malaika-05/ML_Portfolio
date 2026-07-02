@@ -2,17 +2,9 @@
 
 A single-page portfolio site built to showcase AI/ML projects, technical stack, and academic background. Designed around a graphite-and-emerald visual identity with a signature "pipeline" motif (`input → embed → retrieve → generate`) that reflects the RAG systems featured in the work.
 
-**[Live Demo](#)** <!-- replace with your deployed link -->
+**[Live Demo](#)**  https://malaika-05.github.io/ML_Portfolio/
 
 ---
-
-## ✦ Preview
-
-<!-- Add a screenshot once deployed -->
-<!-- ![Portfolio preview](preview.png) -->
-
----
-
 ## ✦ Features
 
 - Fully responsive single-page layout (desktop → mobile)
@@ -90,9 +82,9 @@ This site is static and can be deployed on any static host:
 
 ## ✦ Author
 
-**Your Name**
+**Malaika Taqveem**
 AI Undergraduate, Abdul Wali Khan University Mardan (AWKUM)
-[Email](mailto:your.email@example.com) · [GitHub](https://github.com/yourusername) · [LinkedIn](https://linkedin.com/in/yourusername) · [Fiverr](https://fiverr.com/yourusername)
+[Email](mailto:malaikataqveem@gmail.com) · [GitHub](https://github.com/Malaika-05) · [LinkedIn](linkedin.com/in/malaika-taqveem-93354a285/) · 
 
 ---
 
